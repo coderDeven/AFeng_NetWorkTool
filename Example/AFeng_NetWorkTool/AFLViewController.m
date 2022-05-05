@@ -7,7 +7,7 @@
 //
 
 #import "AFLViewController.h"
-
+#import <AFeng_NetWorkTool/AFL_NetworkTool.h>
 @interface AFLViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[[AFL_NetworkTool alloc] init]logVersion];
 }
 
 - (void)didReceiveMemoryWarning

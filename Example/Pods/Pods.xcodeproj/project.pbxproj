@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055072842823FBA90000A377 /* AFL_NetworkTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 055072822823FBA90000A377 /* AFL_NetworkTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		055072852823FBA90000A377 /* AFL_NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 055072832823FBA90000A377 /* AFL_NetworkTool.m */; };
 		3CB759C065A2B44032B87C4C4B69514D /* Pods-AFeng_NetWorkTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCB6649AA4212ABB3FAA8E0CE0DCB5F /* Pods-AFeng_NetWorkTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5326768A57917CA573C121843827B9BE /* AFeng_NetWorkTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3033B4D32CB3AC73A6367EE42556 /* AFeng_NetWorkTool-dummy.m */; };
 		7401D04477CE639FF3EBFA04C9E8884E /* AFeng_NetWorkTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC735E65F766894908FFB0ED6D2E617A /* AFeng_NetWorkTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055072822823FBA90000A377 /* AFL_NetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFL_NetworkTool.h; sourceTree = "<group>"; };
+		055072832823FBA90000A377 /* AFL_NetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFL_NetworkTool.m; sourceTree = "<group>"; };
 		0F2004DED4A557B446729D0B66B83213 /* Pods-AFeng_NetWorkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFeng_NetWorkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		138B7780DECAD20C9D50C5F061F9AE29 /* Pods-AFeng_NetWorkTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFeng_NetWorkTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		361A8DE654C674A644B84C685DE122C6 /* AFeng_NetWorkTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFeng_NetWorkTool; path = AFeng_NetWorkTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361A8DE654C674A644B84C685DE122C6 /* AFeng_NetWorkTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFeng_NetWorkTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E38D31863564FAD570FAE0E70D2AC8 /* AFeng_NetWorkTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFeng_NetWorkTool-prefix.pch"; sourceTree = "<group>"; };
 		496C4776B1284651712C9CA4FA5DF645 /* Pods-AFeng_NetWorkTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFeng_NetWorkTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4AEF375948AE4D5F8DD76B76CCDF27B7 /* AFeng_NetWorkTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AFeng_NetWorkTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -109,6 +113,8 @@
 		0550727F2823F3AC0000A377 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				055072822823FBA90000A377 /* AFL_NetworkTool.h */,
+				055072832823FBA90000A377 /* AFL_NetworkTool.m */,
 			);
 			name = Classes;
 			path = AFeng_NetWorkTool/Classes;
@@ -117,7 +123,7 @@
 		17C9036FC46DCB43D766E71745079022 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				361A8DE654C674A644B84C685DE122C6 /* AFeng_NetWorkTool */,
+				361A8DE654C674A644B84C685DE122C6 /* AFeng_NetWorkTool.framework */,
 				FFF0F4A28193D109CD98C595D49A9584 /* Pods-AFeng_NetWorkTool_Example */,
 				E54C8D2E37FD3E502ADB41172D247AC3 /* Pods-AFeng_NetWorkTool_Tests */,
 			);
@@ -237,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7401D04477CE639FF3EBFA04C9E8884E /* AFeng_NetWorkTool-umbrella.h in Headers */,
+				055072842823FBA90000A377 /* AFL_NetworkTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +319,7 @@
 			);
 			name = AFeng_NetWorkTool;
 			productName = AFeng_NetWorkTool;
-			productReference = 361A8DE654C674A644B84C685DE122C6 /* AFeng_NetWorkTool */;
+			productReference = 361A8DE654C674A644B84C685DE122C6 /* AFeng_NetWorkTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055072852823FBA90000A377 /* AFL_NetworkTool.m in Sources */,
 				5326768A57917CA573C121843827B9BE /* AFeng_NetWorkTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
