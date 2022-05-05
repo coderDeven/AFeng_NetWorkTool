@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AFeng_NetWorkTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AFeng_NetWorkTool.'
+  s.summary          = 'A test pod AFeng_NetWorkTool.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A test pod AFeng_NetWorkTool.
                        DESC
 
-  s.homepage         = 'https://github.com/Deven/AFeng_NetWorkTool'
+  s.homepage         = 'https://github.com/coderDeven/AFeng_NetWorkTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Deven' => 'coderdeven@outlook.com' }
-  s.source           = { :git => 'https://github.com/Deven/AFeng_NetWorkTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/coderDeven/AFeng_NetWorkTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'AFeng_NetWorkTool/Classes/**/*'
+  s.source_files = 'AFeng_NetWorkTool/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'AFeng_NetWorkTool' => ['AFeng_NetWorkTool/Assets/*.png']
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 4.0.0'
+   
 end

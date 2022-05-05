@@ -58,15 +58,15 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B9A3F4F60D93D184409558 /* Pods-AFeng_NetWorkTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFeng_NetWorkTool_Example.release.xcconfig"; path = "Target Support Files/Pods-AFeng_NetWorkTool_Example/Pods-AFeng_NetWorkTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		80A4D15D4C63171ED5498C22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80A4D15D4C63171ED5498C22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8840C364D3840F32CD712D27 /* Pods-AFeng_NetWorkTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFeng_NetWorkTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-AFeng_NetWorkTool_Example/Pods-AFeng_NetWorkTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8A3B7FB25224A7222F577948 /* Pods_AFeng_NetWorkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFeng_NetWorkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		907F7562708D23BF4F63457F /* Pods-AFeng_NetWorkTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFeng_NetWorkTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-AFeng_NetWorkTool_Tests/Pods-AFeng_NetWorkTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		908AF87959C482383160BD65 /* Pods_AFeng_NetWorkTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFeng_NetWorkTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		965DD05BA54983CF12C14D23 /* Pods-AFeng_NetWorkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFeng_NetWorkTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AFeng_NetWorkTool_Tests/Pods-AFeng_NetWorkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF848EE20225AB773F3213A4 /* AFeng_NetWorkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AFeng_NetWorkTool.podspec; path = ../AFeng_NetWorkTool.podspec; sourceTree = "<group>"; };
-		F16CEFE9081A0CE7E7494E10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF848EE20225AB773F3213A4 /* AFeng_NetWorkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AFeng_NetWorkTool.podspec; path = ../AFeng_NetWorkTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F16CEFE9081A0CE7E7494E10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				965DD05BA54983CF12C14D23 /* Pods-AFeng_NetWorkTool_Tests.debug.xcconfig */,
 				907F7562708D23BF4F63457F /* Pods-AFeng_NetWorkTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

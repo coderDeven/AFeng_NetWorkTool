@@ -1,0 +1,16 @@
+PODS:
+  - AFeng_NetWorkTool (0.1.0)
+
+DEPENDENCIES:
+  - AFeng_NetWorkTool (from `../`)
+
+EXTERNAL SOURCES:
+  AFeng_NetWorkTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFeng_NetWorkTool: 9f98402e91977c460565f6d2f112c80233aa5f59
+
+PODFILE CHECKSUM: 2e6701bdee85eeac32d6479bbcabccb1774e07ff
+
+COCOAPODS: 1.11.3

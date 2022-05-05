@@ -1,0 +1,6 @@
+framework module AFeng_NetWorkTool {
+  umbrella header "AFeng_NetWorkTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
